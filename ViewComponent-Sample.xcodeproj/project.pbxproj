@@ -19,6 +19,8 @@
 		F462AA0B279DC2B900A0CEC6 /* ViewComponent_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA0A279DC2B900A0CEC6 /* ViewComponent_SampleTests.swift */; };
 		F462AA15279DC2B900A0CEC6 /* ViewComponent_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA14279DC2B900A0CEC6 /* ViewComponent_SampleUITests.swift */; };
 		F462AA17279DC2B900A0CEC6 /* ViewComponent_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA16279DC2B900A0CEC6 /* ViewComponent_SampleUITestsLaunchTests.swift */; };
+		F462AA2527A3051600A0CEC6 /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F462AA2427A3051600A0CEC6 /* ImageAssets.xcassets */; };
+		F462AA2727A3053100A0CEC6 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F462AA2627A3053100A0CEC6 /* ColorAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		F462AA10279DC2B900A0CEC6 /* ViewComponent-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViewComponent-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F462AA14279DC2B900A0CEC6 /* ViewComponent_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComponent_SampleUITests.swift; sourceTree = "<group>"; };
 		F462AA16279DC2B900A0CEC6 /* ViewComponent_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComponent_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F462AA2427A3051600A0CEC6 /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssets.xcassets; sourceTree = "<group>"; };
+		F462AA2627A3053100A0CEC6 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,6 @@
 				1332A760A9B8426A4C9FB35B /* Pods-ViewComponent-SampleTests.debug.xcconfig */,
 				50900307C23A3038FB1A8893 /* Pods-ViewComponent-SampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,6 +142,7 @@
 		F462A9F3279DC2B700A0CEC6 /* ViewComponent-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				F462AA2327A304F100A0CEC6 /* Resources */,
 				F462A9F4279DC2B700A0CEC6 /* ViewComponent_SampleApp.swift */,
 				F462A9F6279DC2B700A0CEC6 /* ContentView.swift */,
 				F462A9F8279DC2B900A0CEC6 /* Assets.xcassets */,
@@ -172,6 +176,15 @@
 				F462AA16279DC2B900A0CEC6 /* ViewComponent_SampleUITestsLaunchTests.swift */,
 			);
 			path = "ViewComponent-SampleUITests";
+			sourceTree = "<group>";
+		};
+		F462AA2327A304F100A0CEC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F462AA2427A3051600A0CEC6 /* ImageAssets.xcassets */,
+				F462AA2627A3053100A0CEC6 /* ColorAssets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +296,8 @@
 			files = (
 				F462A9FC279DC2B900A0CEC6 /* Preview Assets.xcassets in Resources */,
 				F462A9F9279DC2B900A0CEC6 /* Assets.xcassets in Resources */,
+				F462AA2727A3053100A0CEC6 /* ColorAssets.xcassets in Resources */,
+				F462AA2527A3051600A0CEC6 /* ImageAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
