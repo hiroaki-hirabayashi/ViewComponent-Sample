@@ -32,7 +32,8 @@ struct HomeQuizView: View {
                     Spacer()
                         .frame(height: 15)
                 }
-            }.background(Image("home_quiz_background"), alignment: .top)
+            }
+            .background(Image("home_quiz_background"), alignment: .top)
                 .frame(width: 243, height: 214)
             Spacer()
                 .frame(height: 10)
