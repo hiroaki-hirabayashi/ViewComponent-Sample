@@ -23,6 +23,27 @@
 		F462AA2727A3053100A0CEC6 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F462AA2627A3053100A0CEC6 /* ColorAssets.xcassets */; };
 		F462AA2A27A305D000A0CEC6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F462AA2C27A305D100A0CEC6 /* Localizable.strings */; };
 		F462AA3127A307C700A0CEC6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA3027A307C700A0CEC6 /* Color.swift */; };
+		F462AA8727A9684F00A0CEC6 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA8627A9684F00A0CEC6 /* TabBarView.swift */; };
+		F462AA9227A9692F00A0CEC6 /* HomeQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA8D27A9692E00A0CEC6 /* HomeQuizView.swift */; };
+		F462AA9327A9692F00A0CEC6 /* HomeColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA8E27A9692E00A0CEC6 /* HomeColumnView.swift */; };
+		F462AA9427A9692F00A0CEC6 /* HomeStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA8F27A9692E00A0CEC6 /* HomeStatusView.swift */; };
+		F462AA9527A9692F00A0CEC6 /* HomeStretchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA9027A9692F00A0CEC6 /* HomeStretchView.swift */; };
+		F462AA9627A9692F00A0CEC6 /* HomeContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA9127A9692F00A0CEC6 /* HomeContentsView.swift */; };
+		F462AA9827A9694000A0CEC6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AA9727A9694000A0CEC6 /* HomeView.swift */; };
+		F462AAD227A970CA00A0CEC6 /* TimeTableNextPreviousWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AACE27A970C900A0CEC6 /* TimeTableNextPreviousWeekView.swift */; };
+		F462AAD327A970CA00A0CEC6 /* TimeTableContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AACF27A970CA00A0CEC6 /* TimeTableContentsView.swift */; };
+		F462AAD427A970CA00A0CEC6 /* TimeTableCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAD027A970CA00A0CEC6 /* TimeTableCalendarView.swift */; };
+		F462AAD527A970CA00A0CEC6 /* TimeTableAllButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAD127A970CA00A0CEC6 /* TimeTableAllButtonView.swift */; };
+		F462AAD727A970E200A0CEC6 /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAD627A970E200A0CEC6 /* TimeTableView.swift */; };
+		F462AADC27A9712100A0CEC6 /* HealthHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AADB27A9712100A0CEC6 /* HealthHabitView.swift */; };
+		F462AADF27A9712700A0CEC6 /* HealthHabitTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AADD27A9712700A0CEC6 /* HealthHabitTabView.swift */; };
+		F462AAE027A9712700A0CEC6 /* HealthHabitContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AADE27A9712700A0CEC6 /* HealthHabitContentsView.swift */; };
+		F462AAE527A9716300A0CEC6 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAE427A9716300A0CEC6 /* LibraryView.swift */; };
+		F462AAEA27A9716C00A0CEC6 /* LibraryAchievementRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAE627A9716C00A0CEC6 /* LibraryAchievementRowView.swift */; };
+		F462AAEB27A9716C00A0CEC6 /* LibraryFavoriteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAE727A9716C00A0CEC6 /* LibraryFavoriteRowView.swift */; };
+		F462AAEC27A9716C00A0CEC6 /* LibraryHistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAE827A9716C00A0CEC6 /* LibraryHistoryRowView.swift */; };
+		F462AAED27A9716C00A0CEC6 /* LibraryContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAE927A9716C00A0CEC6 /* LibraryContentsView.swift */; };
+		F462AAF027A9728000A0CEC6 /* AvatarInstructorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAEF27A9728000A0CEC6 /* AvatarInstructorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +90,27 @@
 		F462AA2B27A305D100A0CEC6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F462AA2D27A305D600A0CEC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F462AA3027A307C700A0CEC6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F462AA8627A9684F00A0CEC6 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F462AA8D27A9692E00A0CEC6 /* HomeQuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeQuizView.swift; sourceTree = "<group>"; };
+		F462AA8E27A9692E00A0CEC6 /* HomeColumnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeColumnView.swift; sourceTree = "<group>"; };
+		F462AA8F27A9692E00A0CEC6 /* HomeStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStatusView.swift; sourceTree = "<group>"; };
+		F462AA9027A9692F00A0CEC6 /* HomeStretchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStretchView.swift; sourceTree = "<group>"; };
+		F462AA9127A9692F00A0CEC6 /* HomeContentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeContentsView.swift; sourceTree = "<group>"; };
+		F462AA9727A9694000A0CEC6 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F462AACE27A970C900A0CEC6 /* TimeTableNextPreviousWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableNextPreviousWeekView.swift; sourceTree = "<group>"; };
+		F462AACF27A970CA00A0CEC6 /* TimeTableContentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableContentsView.swift; sourceTree = "<group>"; };
+		F462AAD027A970CA00A0CEC6 /* TimeTableCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableCalendarView.swift; sourceTree = "<group>"; };
+		F462AAD127A970CA00A0CEC6 /* TimeTableAllButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableAllButtonView.swift; sourceTree = "<group>"; };
+		F462AAD627A970E200A0CEC6 /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
+		F462AADB27A9712100A0CEC6 /* HealthHabitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthHabitView.swift; sourceTree = "<group>"; };
+		F462AADD27A9712700A0CEC6 /* HealthHabitTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthHabitTabView.swift; sourceTree = "<group>"; };
+		F462AADE27A9712700A0CEC6 /* HealthHabitContentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthHabitContentsView.swift; sourceTree = "<group>"; };
+		F462AAE427A9716300A0CEC6 /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F462AAE627A9716C00A0CEC6 /* LibraryAchievementRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAchievementRowView.swift; sourceTree = "<group>"; };
+		F462AAE727A9716C00A0CEC6 /* LibraryFavoriteRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryFavoriteRowView.swift; sourceTree = "<group>"; };
+		F462AAE827A9716C00A0CEC6 /* LibraryHistoryRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryHistoryRowView.swift; sourceTree = "<group>"; };
+		F462AAE927A9716C00A0CEC6 /* LibraryContentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryContentsView.swift; sourceTree = "<group>"; };
+		F462AAEF27A9728000A0CEC6 /* AvatarInstructorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarInstructorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +189,7 @@
 		F462A9F3279DC2B700A0CEC6 /* ViewComponent-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				F462AA8527A967C600A0CEC6 /* Views */,
 				F462AA2327A304F100A0CEC6 /* Resources */,
 				F462AA2E27A3073000A0CEC6 /* Utils */,
 				F462A9F4279DC2B700A0CEC6 /* ViewComponent_SampleApp.swift */,
@@ -208,6 +251,146 @@
 				F462AA3027A307C700A0CEC6 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F462AA8527A967C600A0CEC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F462AAEE27A9726400A0CEC6 /* Common */,
+				F462AA8927A968E000A0CEC6 /* TabBar */,
+				F462AA8A27A968F400A0CEC6 /* Home */,
+				F462AACB27A9706800A0CEC6 /* TimeTable */,
+				F462AAD827A9710500A0CEC6 /* HealthHabit */,
+				F462AAE127A9713C00A0CEC6 /* Library */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F462AA8927A968E000A0CEC6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F462AA8627A9684F00A0CEC6 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F462AA8A27A968F400A0CEC6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F462AA8C27A9690B00A0CEC6 /* Main */,
+				F462AA8B27A9690300A0CEC6 /* Sub */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F462AA8B27A9690300A0CEC6 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				F462AA8E27A9692E00A0CEC6 /* HomeColumnView.swift */,
+				F462AA9127A9692F00A0CEC6 /* HomeContentsView.swift */,
+				F462AA8D27A9692E00A0CEC6 /* HomeQuizView.swift */,
+				F462AA8F27A9692E00A0CEC6 /* HomeStatusView.swift */,
+				F462AA9027A9692F00A0CEC6 /* HomeStretchView.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		F462AA8C27A9690B00A0CEC6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F462AA9727A9694000A0CEC6 /* HomeView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F462AACB27A9706800A0CEC6 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				F462AACD27A970BB00A0CEC6 /* Main */,
+				F462AACC27A970B500A0CEC6 /* Sub */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		F462AACC27A970B500A0CEC6 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				F462AAD127A970CA00A0CEC6 /* TimeTableAllButtonView.swift */,
+				F462AAD027A970CA00A0CEC6 /* TimeTableCalendarView.swift */,
+				F462AACF27A970CA00A0CEC6 /* TimeTableContentsView.swift */,
+				F462AACE27A970C900A0CEC6 /* TimeTableNextPreviousWeekView.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		F462AACD27A970BB00A0CEC6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F462AAD627A970E200A0CEC6 /* TimeTableView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F462AAD827A9710500A0CEC6 /* HealthHabit */ = {
+			isa = PBXGroup;
+			children = (
+				F462AADA27A9711600A0CEC6 /* Main */,
+				F462AAD927A9710E00A0CEC6 /* Sub */,
+			);
+			path = HealthHabit;
+			sourceTree = "<group>";
+		};
+		F462AAD927A9710E00A0CEC6 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				F462AADE27A9712700A0CEC6 /* HealthHabitContentsView.swift */,
+				F462AADD27A9712700A0CEC6 /* HealthHabitTabView.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		F462AADA27A9711600A0CEC6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F462AADB27A9712100A0CEC6 /* HealthHabitView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F462AAE127A9713C00A0CEC6 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F462AAE327A9715A00A0CEC6 /* Main */,
+				F462AAE227A9715300A0CEC6 /* Sub */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F462AAE227A9715300A0CEC6 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				F462AAE627A9716C00A0CEC6 /* LibraryAchievementRowView.swift */,
+				F462AAE927A9716C00A0CEC6 /* LibraryContentsView.swift */,
+				F462AAE727A9716C00A0CEC6 /* LibraryFavoriteRowView.swift */,
+				F462AAE827A9716C00A0CEC6 /* LibraryHistoryRowView.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		F462AAE327A9715A00A0CEC6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F462AAE427A9716300A0CEC6 /* LibraryView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F462AAEE27A9726400A0CEC6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F462AAEF27A9728000A0CEC6 /* AvatarInstructorView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,11 +599,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F462AAEC27A9716C00A0CEC6 /* LibraryHistoryRowView.swift in Sources */,
+				F462AAD327A970CA00A0CEC6 /* TimeTableContentsView.swift in Sources */,
+				F462AAED27A9716C00A0CEC6 /* LibraryContentsView.swift in Sources */,
+				F462AADC27A9712100A0CEC6 /* HealthHabitView.swift in Sources */,
 				F462AA01279DC2B900A0CEC6 /* ViewComponent_Sample.xcdatamodeld in Sources */,
+				F462AAE027A9712700A0CEC6 /* HealthHabitContentsView.swift in Sources */,
+				F462AAEB27A9716C00A0CEC6 /* LibraryFavoriteRowView.swift in Sources */,
+				F462AA9627A9692F00A0CEC6 /* HomeContentsView.swift in Sources */,
+				F462AA9427A9692F00A0CEC6 /* HomeStatusView.swift in Sources */,
+				F462AA9327A9692F00A0CEC6 /* HomeColumnView.swift in Sources */,
+				F462AAF027A9728000A0CEC6 /* AvatarInstructorView.swift in Sources */,
+				F462AAE527A9716300A0CEC6 /* LibraryView.swift in Sources */,
 				F462A9FE279DC2B900A0CEC6 /* Persistence.swift in Sources */,
+				F462AADF27A9712700A0CEC6 /* HealthHabitTabView.swift in Sources */,
 				F462A9F7279DC2B700A0CEC6 /* ContentView.swift in Sources */,
 				F462AA3127A307C700A0CEC6 /* Color.swift in Sources */,
+				F462AAD727A970E200A0CEC6 /* TimeTableView.swift in Sources */,
+				F462AA8727A9684F00A0CEC6 /* TabBarView.swift in Sources */,
+				F462AA9527A9692F00A0CEC6 /* HomeStretchView.swift in Sources */,
+				F462AA9827A9694000A0CEC6 /* HomeView.swift in Sources */,
 				F462A9F5279DC2B700A0CEC6 /* ViewComponent_SampleApp.swift in Sources */,
+				F462AAD227A970CA00A0CEC6 /* TimeTableNextPreviousWeekView.swift in Sources */,
+				F462AAD427A970CA00A0CEC6 /* TimeTableCalendarView.swift in Sources */,
+				F462AAEA27A9716C00A0CEC6 /* LibraryAchievementRowView.swift in Sources */,
+				F462AAD527A970CA00A0CEC6 /* TimeTableAllButtonView.swift in Sources */,
+				F462AA9227A9692F00A0CEC6 /* HomeQuizView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
