@@ -35,8 +35,10 @@ struct HomeContentsView: View {
                     Spacer()
                         .frame(height: 15)
                 }
-            }.background(Image("home_contents_background"), alignment: .top)
-                .frame(width: 335, height: 269)
+            }
+            .background(Image("home_contents_background"), alignment: .top)
+            .frame(width: 335, height: 269)
+            
             HStack {
                 TabView(selection: $selection) {
                     Text("")
@@ -51,7 +53,8 @@ struct HomeContentsView: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .background(Color.clear)
                         .tag(2)
-                }.tabViewStyle(PageTabViewStyle())
+                }
+                .tabViewStyle(PageTabViewStyle())
                     .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
             }
             Spacer()
