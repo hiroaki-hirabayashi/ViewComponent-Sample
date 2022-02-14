@@ -44,6 +44,12 @@
 		F462AAEC27A9716C00A0CEC6 /* LibraryHistoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAE827A9716C00A0CEC6 /* LibraryHistoryRowView.swift */; };
 		F462AAED27A9716C00A0CEC6 /* LibraryContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAE927A9716C00A0CEC6 /* LibraryContentsView.swift */; };
 		F462AAF027A9728000A0CEC6 /* AvatarInstructorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F462AAEF27A9728000A0CEC6 /* AvatarInstructorView.swift */; };
+		F4A742EE27BACBD900D1E5DE /* ColumnDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A742ED27BACBD900D1E5DE /* ColumnDetailView.swift */; };
+		F4A742F427BACBE200D1E5DE /* ColumnDateilDateTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A742EF27BACBE200D1E5DE /* ColumnDateilDateTimeView.swift */; };
+		F4A742F527BACBE200D1E5DE /* ColnmnDateilPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A742F027BACBE200D1E5DE /* ColnmnDateilPublisherView.swift */; };
+		F4A742F627BACBE200D1E5DE /* ColumnDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A742F127BACBE200D1E5DE /* ColumnDetailHeaderView.swift */; };
+		F4A742F727BACBE200D1E5DE /* ColumnDateilAgendaIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A742F227BACBE200D1E5DE /* ColumnDateilAgendaIconView.swift */; };
+		F4A742F827BACBE200D1E5DE /* ColumnDateilRelationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A742F327BACBE200D1E5DE /* ColumnDateilRelationTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +117,12 @@
 		F462AAE827A9716C00A0CEC6 /* LibraryHistoryRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryHistoryRowView.swift; sourceTree = "<group>"; };
 		F462AAE927A9716C00A0CEC6 /* LibraryContentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryContentsView.swift; sourceTree = "<group>"; };
 		F462AAEF27A9728000A0CEC6 /* AvatarInstructorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarInstructorView.swift; sourceTree = "<group>"; };
+		F4A742ED27BACBD900D1E5DE /* ColumnDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnDetailView.swift; sourceTree = "<group>"; };
+		F4A742EF27BACBE200D1E5DE /* ColumnDateilDateTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnDateilDateTimeView.swift; sourceTree = "<group>"; };
+		F4A742F027BACBE200D1E5DE /* ColnmnDateilPublisherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColnmnDateilPublisherView.swift; sourceTree = "<group>"; };
+		F4A742F127BACBE200D1E5DE /* ColumnDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnDetailHeaderView.swift; sourceTree = "<group>"; };
+		F4A742F227BACBE200D1E5DE /* ColumnDateilAgendaIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnDateilAgendaIconView.swift; sourceTree = "<group>"; };
+		F4A742F327BACBE200D1E5DE /* ColumnDateilRelationTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnDateilRelationTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,12 +268,7 @@
 		F462AA8527A967C600A0CEC6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F462AAEE27A9726400A0CEC6 /* Common */,
-				F462AA8927A968E000A0CEC6 /* TabBar */,
-				F462AA8A27A968F400A0CEC6 /* Home */,
-				F462AACB27A9706800A0CEC6 /* TimeTable */,
-				F462AAD827A9710500A0CEC6 /* HealthHabit */,
-				F462AAE127A9713C00A0CEC6 /* Library */,
+				F4A742F927BACD4F00D1E5DE /* FirstStep */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -391,6 +398,49 @@
 				F462AAEF27A9728000A0CEC6 /* AvatarInstructorView.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		F4A742EA27BACBB500D1E5DE /* ColumnDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F4A742EC27BACBCF00D1E5DE /* Main */,
+				F4A742EB27BACBC600D1E5DE /* Sub */,
+			);
+			path = ColumnDetail;
+			sourceTree = "<group>";
+		};
+		F4A742EB27BACBC600D1E5DE /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				F4A742F027BACBE200D1E5DE /* ColnmnDateilPublisherView.swift */,
+				F4A742F227BACBE200D1E5DE /* ColumnDateilAgendaIconView.swift */,
+				F4A742EF27BACBE200D1E5DE /* ColumnDateilDateTimeView.swift */,
+				F4A742F327BACBE200D1E5DE /* ColumnDateilRelationTitleView.swift */,
+				F4A742F127BACBE200D1E5DE /* ColumnDetailHeaderView.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		F4A742EC27BACBCF00D1E5DE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4A742ED27BACBD900D1E5DE /* ColumnDetailView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F4A742F927BACD4F00D1E5DE /* FirstStep */ = {
+			isa = PBXGroup;
+			children = (
+				F462AA8927A968E000A0CEC6 /* TabBar */,
+				F4A742EA27BACBB500D1E5DE /* ColumnDetail */,
+				F462AAE127A9713C00A0CEC6 /* Library */,
+				F462AAD827A9710500A0CEC6 /* HealthHabit */,
+				F462AACB27A9706800A0CEC6 /* TimeTable */,
+				F462AA8A27A968F400A0CEC6 /* Home */,
+				F462AAEE27A9726400A0CEC6 /* Common */,
+			);
+			path = FirstStep;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -609,6 +659,9 @@
 				F462AA9627A9692F00A0CEC6 /* HomeContentsView.swift in Sources */,
 				F462AA9427A9692F00A0CEC6 /* HomeStatusView.swift in Sources */,
 				F462AA9327A9692F00A0CEC6 /* HomeColumnView.swift in Sources */,
+				F4A742F827BACBE200D1E5DE /* ColumnDateilRelationTitleView.swift in Sources */,
+				F4A742F527BACBE200D1E5DE /* ColnmnDateilPublisherView.swift in Sources */,
+				F4A742F427BACBE200D1E5DE /* ColumnDateilDateTimeView.swift in Sources */,
 				F462AAF027A9728000A0CEC6 /* AvatarInstructorView.swift in Sources */,
 				F462AAE527A9716300A0CEC6 /* LibraryView.swift in Sources */,
 				F462A9FE279DC2B900A0CEC6 /* Persistence.swift in Sources */,
@@ -619,11 +672,14 @@
 				F462AA8727A9684F00A0CEC6 /* TabBarView.swift in Sources */,
 				F462AA9527A9692F00A0CEC6 /* HomeStretchView.swift in Sources */,
 				F462AA9827A9694000A0CEC6 /* HomeView.swift in Sources */,
+				F4A742F727BACBE200D1E5DE /* ColumnDateilAgendaIconView.swift in Sources */,
 				F462A9F5279DC2B700A0CEC6 /* ViewComponent_SampleApp.swift in Sources */,
 				F462AAD227A970CA00A0CEC6 /* TimeTableNextPreviousWeekView.swift in Sources */,
 				F462AAD427A970CA00A0CEC6 /* TimeTableCalendarView.swift in Sources */,
 				F462AAEA27A9716C00A0CEC6 /* LibraryAchievementRowView.swift in Sources */,
+				F4A742EE27BACBD900D1E5DE /* ColumnDetailView.swift in Sources */,
 				F462AAD527A970CA00A0CEC6 /* TimeTableAllButtonView.swift in Sources */,
+				F4A742F627BACBE200D1E5DE /* ColumnDetailHeaderView.swift in Sources */,
 				F462AA9227A9692F00A0CEC6 /* HomeQuizView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
